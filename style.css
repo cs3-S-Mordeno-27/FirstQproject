@@ -1,0 +1,354 @@
+/*External stylesheet*/
+* {
+    margin: 0;
+}
+
+.navbar {
+    background-color: #004332; /* Dark Green background color */
+    display: flex;
+    justify-content: space-between; /* Push "Kitchen Haven" to the right */
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 10;
+    border-bottom: 1px solid #004332;
+    box-shadow: 0 0 8px 0 #c0a159; /* Add a yellow shadow on hover */
+}
+
+.navbar .nav-logo {
+    font-family: 'Century Gothic', sans-serif; /* Use Century Gothic font for the logo */
+    font-size: 1rem; /* Adjust the font size */
+    color: #c0a159; /* Original text color for the logo */
+    text-transform: uppercase;
+    letter-spacing: 2px; /* Adjust the letter spacing */
+    margin-right: 10px; /* Add some spacing between "Kitchen Haven" and the links */
+    margin-left:0px;
+    align-items: middle;
+}                  
+.nav-icon{
+    height: 25px;
+    width:25px;
+    padding-right:0px;
+}
+
+.navbar .nav-links {
+    display: flex;
+    align-items: center;
+}
+
+/* Navbar styling */
+.navbar .nav-links a {
+    color: #c0a159; /* Original text color */
+    text-decoration: none; /* Remove underline */
+    font-family: 'Century Gothic', sans-serif; /* Use Century Gothic font */
+    font-size: 1rem; /* Adjust font size */
+    margin: 0 20px; /* Spacing between links */
+    transition: background-color 0.3s, color 0.3s; /* Add transition effect */
+}
+
+/* Change the background color and text color of the links when you hover over them */
+.navbar .nav-links li a:hover {
+    background-color: #c0a159; /* Change background color to yellow on hover */
+    color: #006400; /* Change text color to green on hover for contrast */
+}
+
+/* Add styling for the welcome section and its contents */
+.welcome-section {
+    background: center/center no-repeat; /* Set the background image */
+    background-size: cover; /* This will make the background image cover the entire element */
+    height: 500px; /* Adjust the desired height */
+    width: 100%;
+    text-align: left; /* Align text to the left */
+    display: flex;
+    justify-content: flex-start; /* Move content to the left */
+    align-items: center; /* Center content vertically */
+    position: relative;
+}
+
+.welcome-text {
+    background: rgba(0, 0, 0, 0.5);
+    color:  #c0a159;
+    padding: 20px;
+    text-align: left;
+    position: absolute;
+    left: 20px;
+    font-family: 'Century Gothic', sans-serif;
+    margin: 0px;
+    width: 500px;
+}
+
+.sub-text1 {
+    font-size: 10px;
+    margin-top: 20px;
+    text-align: right; /* Align the sub-text to the right */
+    padding-right: 15px; /* Adjust the padding-right */
+    margin:30px;
+    
+}
+
+.welcome-section2 {
+    background: center/center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: 300px; /* Set a fixed height for the section to match the image */
+    text-align: right;
+    display: flex;
+    justify-content: flex-start;
+    align-items: flex-end; /* Align content to the bottom of the section */
+    position: relative;
+}
+
+.welcome-image2 {
+    width: 100%;
+    height: 100%; /* Ensure the image takes the full height of the section */
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+    float: right;
+}
+
+.welcome-section2 .welcome-text {
+    background: #004332;
+    color: #c0a159;
+    padding: 5px;
+    text-align: center; /* Align text to the left inside the container */
+    font-family: 'Century Gothic', sans-serif;
+    width: 40%; /* Adjust the width as needed */
+    max-width: 400px; /* Limit the maximum width of the text */
+    position: absolute;
+    bottom: 1px; /* Position the text at the bottom of the section */
+}
+.welcome-text h1,
+.welcome-text h2 {
+    margin: 0; /* Remove the margin for both h1 and h2 elements */
+}
+
+.welcome-image {
+    width: 100%; /* Ensure the image fits within the container */
+    height:fit-content; 
+}
+
+.welcome-text {
+    font-size: 24px;
+}
+
+.sub-text {
+    font-size: 10px; /* Adjust the font size as needed */
+    text-align: left; /* Align the sub-text to the left */
+    padding-left: 15px;
+    padding:40px;
+}
+.sub-text12 {
+    font-size: 10px; /* Adjust the font size as needed */
+    text-align: left; /* Align the sub-text to the left */
+    padding-left: 15px;
+}
+
+
+.sub-text1 {
+    font-size: 10px; /* Adjust the font size as needed */
+    margin-top: 20px; /* Add spacing between the main text and sub-text */
+    text-align: right; /* Align the sub-text to the left */
+    padding-left: 15px;
+}
+
+.welcome-section2 {
+    background: center/center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    text-align: right; /* Align the entire section to the right */
+    display: flex;
+    justify-content: flex-start; /* Move content to the left */
+    align-items: center; /* Center content vertically */
+    position: relative;
+}
+
+.welcome-image2 {
+    width: 100%;
+    height: 300px; /* Maintain aspect ratio */
+    float: right;
+}
+
+.welcome-section2 .welcome-text2 h1, .welcome-section2 .welcome-text2 p {
+    text-align: right; /* Align the text to the right */
+}
+
+.welcome-image3 {
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover;
+    float: right;
+}
+.welcome-section {
+    background: center/center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    text-align: right; /* Align the entire section to the right */
+    display: flex;
+    justify-content: flex-start; /* Move content to the left */
+    align-items: center; /* Center content vertically */
+    position: relative;
+}
+
+.welcome-section2 .welcome-text2 {
+    background: rgba(0, 0, 0, 0.5);
+    color: #c0a159;
+    padding: 20px;
+    text-align: left; /* Align text to the left inside the container */
+    font-family: 'Century Gothic', sans-serif;
+    width: 40%; /* Adjust the width as needed */
+    max-width: 500px; /* Limit the maximum width of the text */
+}
+.sub-text1 {
+    font-size: 10px; /* Adjust the font size as needed */
+    margin-top: 20px; /* Add spacing between the main text and sub-text */
+    text-align: right; /* Align the sub-text to the left */
+    padding-left: 15px;
+}
+.welcome-section3 {
+    background: center/center no-repeat;
+    background-size: cover;
+    width: 100%;
+    height: auto;
+    text-align: right;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    position: relative;
+}
+
+.welcome-section3 .welcome-image3 {
+    width: 100%;
+    height: 300px; /* Adjust the height as needed */
+    object-fit: cover;
+    float: right;
+}
+
+.welcome-section3 .welcome-text3 {
+    background-color:#004332;
+    color: #c0a159;
+    padding: 63px;
+    text-align: left;
+    font-family: 'Century Gothic', sans-serif;
+    width: 40%;
+    max-width: 800px;
+    
+}
+
+.sub-text3 {
+    font-size: 10px;
+    text-align: left;
+    padding-left: 15px;
+}
+
+.navbar .nav-links li {
+    display: inline-flex;
+    align-items: center;
+    margin-right: 15px;
+}
+
+/*For the second page*/
+.map img {
+    height:600px;
+    width:600px;
+    margin-bottom: 10px;
+    margin-left: 10px;
+    float: left; /* Float the map container to the left */
+    margin-right: 20px; /* Add some spacing to the right */
+}
+
+.additional-info {
+    position: right; /* Float the additional information container to the left */
+    float: top;
+    color: #004332;
+    font-family: 'Century Gothic', sans-serif;
+    font-size:20px;
+
+}
+
+.fa {
+  padding: 20px;
+  font-size: 30px;
+  width: 50px;
+  text-align: center;
+  text-decoration: none;
+}
+
+/* Add a hover effect if you want */
+.fa:hover {
+  opacity: 0.7;
+}
+
+/* Set a specific color for each brand */
+.social {
+    margin-top:300px;
+    margin-bottom: 5px;
+    font-family: 'Century Gothic', sans-serif;
+    color: #004332;
+    text-align: center; /* Center the content horizontally */
+    padding: 20px; /* Add some padding for spacing */
+    border-top: 1px solid #c0a159;
+    border-bottom:1px solid #004332;
+    border-width: 80%;
+}
+/* Facebook */
+.fa-facebook {
+  background: #3B5998;
+  color: white;
+  margin: 10px;
+}
+
+/* Twitter */
+.fa-twitter {
+  background: #55ACEE;
+  color: white;
+  margin: 10px;
+}
+.fa-linkedin {
+    background: #007bb5;
+    color: white;
+    margin: 10px;
+  }
+.fa-instagram {
+    background: #125688;
+    color: white;
+    margin: 10px;
+}
+
+.fa-pinterest {
+    background: #cb2027;
+    color: white;
+    margin: 10px;
+}
+.fa-facebook {
+    background: #125688;
+    color: white;
+    margin: 10px;
+}
+.social-icons {
+    text-align: center; /* Center the icons horizontally */
+    margin: 20px 0; /* Add some margin for spacing */
+}
+.fa-twitter, .fa-linkedin, .fa-instagram, .fa-pinterest, .fa-facebook {
+    color: white;
+    margin: 10px;
+    padding: 10px; /* Add padding for spacing around the icons */
+}
+/*footer*/
+.footer {
+    background-color: #004332; /* Dark Green background color */
+    display: flex;
+    justify-content: space-between; /* Push "Kitchen Haven" to the right */
+    align-items: center;
+    padding: 1rem;
+    border-top: 1px solid #004332; /* Change border-bottom to border-top to separate footer from content */
+    box-shadow: 0 0 8px 0 #c0a159; /* Add a yellow shadow on hover */
+    font-family: 'Century Gothic', sans-serif;
+    color:#c0a159;
+    position: static;
+    bottom: 0;
+    left: 0;
+    width: 97.5%;
+}
